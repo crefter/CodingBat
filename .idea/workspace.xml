@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3fa71df4-31fe-4849-ae49-b0da469914f1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3fa71df4-31fe-4849-ae49-b0da469914f1" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,8 +14,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/CodingBat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="2596" lean-forward="true" selection-start-line="2596" selection-end-line="2596" />
+            <state relative-caret-position="297">
+              <caret line="2597" column="17" lean-forward="true" selection-start-line="2597" selection-start-column="17" selection-end-line="2597" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -67,9 +65,6 @@
         </map>
       </branch-storage>
     </favorite-branches>
-  </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="0c08ae07-bde7-491f-9f00-fe484195453c" />
   </component>
   <component name="GithubProjectSettings">
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="kek" />
@@ -219,7 +214,6 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="GitHub Pull Requests" sideWeight="0.49924472" weight="0.32961783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.23726115" />
@@ -228,9 +222,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.20700637" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49924472" weight="0.2245223" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.5022659" side_tool="true" visible="true" weight="0.18471338" />
-      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49773413" visible="true" weight="0.18471338" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="8" sideWeight="0.505287" side_tool="true" visible="true" weight="0.18471338" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49471298" visible="true" weight="0.18471338" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3280255" />
+      <window_info anchor="bottom" id="GitHub Pull Requests" order="11" sideWeight="0.49924472" weight="0.32961783" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -283,8 +278,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/CodingBat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="2596" lean-forward="true" selection-start-line="2596" selection-end-line="2596" />
+        <state relative-caret-position="297">
+          <caret line="2597" column="17" lean-forward="true" selection-start-line="2597" selection-start-column="17" selection-end-line="2597" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
