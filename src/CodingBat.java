@@ -13,6 +13,10 @@ public class CodingBat {
         pre4(new int[]{2, 1, 10, 4, 5, 20, 4});
         post4(new int[]{2, 1, 10, 4, 5, 20});
         notAlone(new int[]{1, 1, 1, 2}, 1);
+        zeroFront(new int[]{1, 1, 0, 0, 1, 0});
+        withoutTen(new int[]{10, 13, 10, 14});
+        zeroMax(new int[]{0, 4, 0, 3});
+        evenOdd(new int[]{3, 3, 2});
     }
 
     static public int[] shiftLeft(int[] nums) {
@@ -97,6 +101,15 @@ public class CodingBat {
 
     static public int[] zeroFront(int[] nums) {
 
+        int c = 0;
+        for (int i = 0; i < nums.length; i++) {
+
+            if (nums[i] == 0) {
+                nums[i] = nums[c];
+                nums[c] = 0;
+                c++;
+            }
+        }
 
         return nums;
     }
@@ -2501,5 +2514,87 @@ public class CodingBat {
         return arr;
     }
 
+    static public int[] withoutTen(int[] nums) {
 
+        int[] r = new int[nums.length];
+        int j = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != 10) {
+                r[j] = nums[i];
+                j++;
+            }
+        }
+
+        for (int i = j; i < nums.length; i++) {
+            r[i] = 0;
+        }
+
+        return r;
+    }
+
+
+    static public int[] zeroMax(int[] nums) {
+
+        int max = 0;
+        for (int i = 0; i < nums.length - 1; i++) {
+
+            if (nums[i] == 0) {
+
+                for (int j = i; j < nums.length; j++) {
+                    if (nums[j] > max && nums[j] % 2 == 1) {
+                        max = nums[j];
+                    }
+                }
+
+                nums[i] = max;
+                max = 0;
+            }
+
+        }
+
+        return nums;
+    }
+
+    static public int[] evenOdd(int[] nums) {
+
+        int[] a = new int[nums.length];
+        int c = 0;
+        int k = nums.length - 1;
+
+        for (int i = 0; i < nums.length; i++) {
+
+            if (nums[i] % 2 == 0) {
+                a[c] = nums[i];
+                c++;
+            } else {
+                a[k] = nums[i];
+                k--;
+            }
+
+        }
+
+        return a;
+    }
+
+
+    static public String[] fizzBuzz(int start, int end) {
+
+        String[] s = new String[end - start];
+
+        for (int i = start; i < end; i++) {
+
+            if (i % 15 == 0) {
+                s[i - start] = "FizzBuzz";
+            } else if (i % 5 == 0) {
+                s[i - start] = "Buzz";
+            } else if (i % 3 == 0) {
+                s[i - start] = "Fizz";
+            } else {
+                s[i - start] = String.valueOf(i);
+            }
+
+        }
+
+        return s;
+    }
 }
